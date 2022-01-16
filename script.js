@@ -26,6 +26,6 @@ function createGrid(row,col) {
     }
 }
     
-createGrid(2,2);
+createGrid(16,16);
 
 BODY.insertBefore(CONTAINER, JS);

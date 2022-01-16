@@ -5,11 +5,21 @@
 }
 
 .container {
-    display: grid;
+    display: flex;
     grid: repeat(16, 1fr) / auto;
     min-width: 100vw;
     min-height: 100vh;
-    border: solid black 1vw;
 }
 
+.row {
 
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    border: purple solid 3px;
+    flex-grow: 1;
+
+}
