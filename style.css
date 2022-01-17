@@ -11,15 +11,23 @@
     min-height: 100vh;
 }
 
-.row {
+.column {
 
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
-.column {
-    border: purple solid 3px;
+.row {
+    border: black solid 1px;
     flex-grow: 1;
 
+}
+
+button {
+    margin: 1rem .5rem;
+}
+
+.hover {
+    background: blue;
 }
